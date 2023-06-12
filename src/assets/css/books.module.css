@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.stdMain {
+  display: flex;
+  justify-content: space-between;
+}
+.stdSidebar {
+  display: inline-block;
+  height: 99vh;
+  width: 25vw;
+  background: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.stdBody {
+  display: inline-block;
+  height: 99vh;
+  width: 99vw;
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  box-sizing: border-box;
+}
+.iconWrapper {
+  background: #ffbf3f;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.titleTop {
+  display: flex;
+  height: 95px;
+  border-bottom: 3px solid #d3d6db;
+}
+.titleTop p {
+  font-family: "Passion One";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 0px;
+  text-align: center;
+  color: #2ca4d8;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.item {
+  padding: 10px;
+  display: flex;
+}
+.desc {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #242424;
+  margin-left: 20px;
+}
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background: #2ca4d8;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;;
+}
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 99vh;
+}
+.tableWrapper {
+  padding: 20px;
+}
+
+.icon {
+  width: 30px !important;
+}
+/* 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px 5px 0 0;
+}
+
+tr,
+th,
+td {
+  text-align: left;
+}
+
+tr {
+  border-left: 2.5px solid rgb(198, 198, 198);
+  border-right: 2.5px solid rgb(198, 198, 198);
+}
+
+th {
+  background-color: #d8d8d8d4;
+  border: none;
+  padding: 6px;
+  border-top: 2.5px solid rgb(198, 198, 198);
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+  border-right: 2.5px solid rgb(198, 198, 198);
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+  border-left: 2.5px solid rgb(198, 198, 198);
+}
+
+td {
+  border-bottom: 2px solid rgb(151, 151, 151);
+  padding: 12px;
+} */
+
+.contentTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contentTable thead tr {
+  background-color: #f1f4f8;
+  color: #6d6d6d;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contentTable th {
+  padding: 12px 15px;
+}
+.contentTable td {
+  padding: 18px 15px;
+}
+
+.contentTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.contentTable tbody tr:hover {
+  background-color: #f1f4f8;
+}
+
+.contentTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.passed {
+  background-color: #2cbf6e;
+  color: white;
+  width: 62px;
+  height: 20px;
+  align-items: center;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+.failed {
+  background-color: #f24643;
+  color: white;
+  width: 62px;
+  height: 20px;
+  align-items: center;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+.excellent {
+  color: #2cbf6e;
+}
+.poor {
+  color: #f24643;
+}
+.average {
+  color: #2ca4d8;
+}
+.actionIcons {
+}
+
+.actionIcons img {
+  max-width: 20px;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+.card_edit {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+.gradeWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination {
+  margin-left: 15px;
+}
+.active {
+  display: flex;
+  background-color: #ddf0f9;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.active span {
+  color: #2ca4d8 !important;
+}
+.inactive {
+  display: flex;
+  padding-left: 10px;
+}

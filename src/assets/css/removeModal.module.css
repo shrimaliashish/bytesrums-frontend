@@ -1,0 +1,106 @@
+.popupBox {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 480px;
+  margin: 0 auto;
+  height: 380px;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  border: 1px solid #999;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  /* justify-content: center; */
+}
+.msg {
+  width: 80%;
+}
+
+.head {
+  width: 80%;
+  border-bottom: 3px solid rgb(131, 131, 131);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+  width: 87%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.buttons .btn1 {
+  background: #f24643;
+  box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
+  border-radius: 10px;
+  width: 110px;
+  height: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buttons .btn2 {
+  box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
+  border-radius: 10px;
+  width: 110px;
+  height: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  border: none;
+
+  margin-right: 10px;
+  border: 2px solid #2ca4d8;
+  color: #2ca4d8;
+  cursor: pointer;
+}
+
+.inp {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.inp p {
+  /* margin-top: -2px; */
+  color: #464646;
+  font-weight: 600;
+}
+
+.inp div {
+  width: 100%;
+}
+
+.inp div label {
+  color: #999;
+  font-weight: bold;
+}
